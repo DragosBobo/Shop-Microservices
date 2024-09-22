@@ -2,8 +2,9 @@
   "profiles": {
     "Docker Compose": {
       "commandName": "DockerCompose",
+      "commandVersion": "1.0",
       "serviceActions": {
-        "catalogdb": "StartWithoutDebugging"
+        "catalog.api": "StartDebugging"
       }
     }
   }
